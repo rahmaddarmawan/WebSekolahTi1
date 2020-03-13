@@ -1,0 +1,68 @@
+body {
+	background-image: url('../images/bg_a11.jpg');
+}
+
+.smk {
+	font-family: 'mulisemibold';
+	font-size: 18px;
+	text-align: center;
+}
+
+.visi {
+	font-family: 'mulilight';
+	font-size: 14px;
+}
+
+.nav-blue {
+	background-color: rgb(54, 102, 235);
+}
+.navlink {
+	border-bottom: 1px solid  rgb(54, 102, 235);
+	transition: .35s;
+}
+.navlink.active {
+	border-bottom: 1px solid #fff;
+}
+.navlink:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.hero img{
+	width: 100%;
+	height: 30%;
+}
+
+.title {
+	font-family: 'mulisemibold';
+	font-size: 20px;
+	padding-bottom: 7.5px;
+	border-bottom: 5px solid #ddd
+}
+
+span.tgl {
+	font-size: 12px;
+	font-family: 'arial';
+	color: #888;
+	display: block;
+}
+
+
+span.judul a {
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'mulisemibold';
+	color:  rgb(54, 102, 235);
+	display: inline-block;
+	transition: .35s;
+}
+
+span.judul a:hover {
+	background-color:  rgb(54, 102, 235);
+	color: white;
+}
+
+.footer {
+	background-color: rgb(54, 102, 235);
+	padding: 15px 15px 15px 30px;
+	text-align: center;
+}
